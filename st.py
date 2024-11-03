@@ -127,16 +127,16 @@ st.markdown("""
 # Same model paths as before
 MODEL_PATHS = {
     'leaf': {
-        'model': "E:/Tanaman Herbal/model daun/mobilenetv2_model.tflite",
-        'labels': "E:/Tanaman Herbal/model daun/labels.txt"
+        'model': "model daun/mobilenetv2_model.tflite",
+        'labels': "model daun/labels.txt"
     },
     'fruit': {
-        'model': "E:/Tanaman Herbal/model buah/mobilenetV2_model.tflite",
-        'labels': "E:/Tanaman Herbal/model buah/labels.txt"
+        'model': "model buah/mobilenetV2_model.tflite",
+        'labels': "model buah/labels.txt"
     },
     'rhizome': {
-        'model': "E:/Tanaman Herbal/model rimpang/mobilenetv2_model.tflite",
-        'labels': "E:/Tanaman Herbal/model rimpang/labels.txt"
+        'model': "model rimpang/mobilenetv2_model.tflite",
+        'labels': "model rimpang/labels.txt"
     }
 }
 
